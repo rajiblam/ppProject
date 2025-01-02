@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_Campaign_Voice]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="MyListeners.listeners"/>
+  </listeners>
+  <test thread-count="5" name="SelectCampaign(failed)">
+    <classes>
+      <class name="testClassPackage.SelectCampaignAndVoiceTest">
+        <methods>
+          <include name="verifyCampaign_POSA_Pledge_Assistance_WithVoice"/>
+          <include name="VerifySelectInnovative_QualifiersCampaignWithSelectVoice"/>
+          <include name="VerifySelectNSBCampaignWithoutSelectVoice"/>
+          <include name="VerifyBackToStationPage"/>
+          <include name="VerifyWhatIfMediaHealthCampaignWithSelectVoice"/>
+          <include name="verifyCampaign_Tax_relief_Statement_WithVoice"/>
+          <include name="VerifyWhatIfMediaHealthCampaignWithOutSelectVoice"/>
+          <include name="verifyCampaign_LIT_FE_withVoice"/>
+          <include name="VerifySelectInnovative_QualifiersCampaignWithoutSelectVoice"/>
+          <include name="VerifyLogoutButtonFunction"/>
+          <include name="launchPropFile"/>
+          <include name="VerifyCampaignLIT_ACA_WithVoice"/>
+          <include name="verifyCampaignLIT_CCD_DV_LV_MXWithVoice"/>
+          <include name="VerifySelectNSBCampaignWitSelectVoice"/>
+          <include name="VerifySelectCampaignPageCaption"/>
+          <include name="verifyCampaign_What_If_Media_Auto_Signals_CampaignWithVoice"/>
+          <include name="StartBrowser"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- testClassPackage.SelectCampaignAndVoiceTest -->
+    </classes>
+  </test> <!-- SelectCampaign(failed) -->
+</suite> <!-- Failed suite [Suite_Campaign_Voice] -->
